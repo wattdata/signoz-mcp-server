@@ -19,7 +19,7 @@
 
             src = ./.;
 
-            vendorHash = null; # Set to null to use vendor directory, or compute with `nix build` error
+            vendorHash = "sha256-WIlOaITdKYJCBTAEZR6lH4OlX5JQGGH+DScYZRORXXA="; # Set to null to use vendor directory, or compute with `nix build` error
 
             subPackages = [ "cmd/server" ];
 
